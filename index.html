@@ -3,30 +3,48 @@
 <head>
 <meta name="viewport" content="width=device-width, inital-scale=1.0">
 <title>Measuring attraction</title>
+  
+<style>
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  body {
+  background-color: rgb(254,255,219);
+}
+  h3 {
+  background-color: rgb(255,255,255);
+}
+  
+</style>
+  
 </head>
 <body>
   
   
 <h1>Cells moving in the liver</h1>
 
-  <p>Specific T cells kill malaria parasites. How do they find the parasites (hunting or random movement)? Prior results were only partially conclusive, so we model the liver sinusoids as a graph and cell paths as walks on the graph. On this page, we see gifs of paths of cells (red, lightening over time) and parasite (green) over time, with the i'th image in the animation containing all paths of cells up to timepoint i.</p>
+  <h2>Specific T cells kill malaria parasites. How do they find the parasites (hunting or random movement)? 
+    Prior results were only partially conclusive, so we model the liver sinusoids as a graph and cell paths as walks on the graph.</h2> 
+    <h2>On this page, we see gifs of paths of cells (red, lightening over time) and parasite (green) over time, with the i'th image in the animation containing all paths of cells up to timepoint i.</h2>
   
-  <p>Real cells moving in real liver sinusoids in the presence of a real parasite: </p>
+  <h3>Real cells moving in real liver sinusoids in the presence of a real parasite: </h3>
   <img src="gifs/CTV3_RealData.gif" alt="(gif)">
 
-  <p>Synthetic cells moving randomly in real liver sinusoids in the presence of a real parasite: </p>
+  <h3>Synthetic cells moving randomly in real liver sinusoids in the presence of a real parasite: </h3>
   <img src="gifs/CTV3_SyntheticData_alpha0.gif" alt="(gif)">
 
-  <p>Synthetic cells moving in real liver sinusoids with attraction to a real parasite: </p>
+  <h3>Synthetic cells moving in real liver sinusoids with attraction to a real parasite: </h3>
   <img src="gifs/CTV3_SyntheticData_alpha1.gif" alt="(gif)">
 
-  <p>Synthetic cells moving randomly in real liver sinusoids with repulsion from a real parasite: </p>
+  <h3>Synthetic cells moving randomly in real liver sinusoids with repulsion from a real parasite: </h3>
   <img src="gifs/CTV3_SyntheticData_alphaN1.gif" alt="(gif)">
 
-  <p>Real cells moving in another real liver's sinusoids in the presence of another real parasite: </p>
+  <h3>Real cells moving in another real liver's sinusoids in the presence of another real parasite: </h3>
   <img src="gifs/CTV5_RealData.gif" alt="(gif)">
   
-  <p>Can you guess which of the following three sets of synthetic cells are moving pseudorandomly, with attraction, and with repulsion? </p>
+  <h3>Can you guess which of the following three sets of synthetic cells are moving pseudorandomly, with attraction, and with repulsion? </h3>
 
   <img src="gifs/CTV3_SyntheticData_alphaN1.gif" alt="(gif)">
   <img src="gifs/CTV5_SyntheticData_alpha1.gif" alt="(gif)">
